@@ -47,10 +47,11 @@ int main(){
     att=(ttat/n);
     printf("\n Process |\tAT |\tBT |\tCT |\tWT |\tTAT\n ");
     for(i=0;i<n;i++){
-            printf("\n\tP%d \t%d \t%d \t%d \t%d \t%d",pid[i],at[i],bt[i],ct[i],wt[i],tat[i]);;
+            printf("\n\tP%d \t%d \t%d \t%d \t%d \t%d",pid[i],at[i],bt[i],ct[i],wt[i],tat[i]);
 
     }
     printf("\n\nAverage Waiting Time: %.2f",awt);
     printf("\n\nAverage Turnaround Time: %.2f",ttat);
     return 0;
 }
+
